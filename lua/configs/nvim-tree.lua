@@ -37,6 +37,7 @@ function M.config()
       dotfiles = false,
       custom = {
         ".git",
+        ".github",
         "node_modules",
         ".cache",
         "__pycache__",
@@ -72,7 +73,7 @@ function M.config()
     view = {
       width = 25,
       height = 30,
-      side = "left",
+      side = "right",
       allow_resize = true,
       hide_root_folder = false,
       number = false,
@@ -88,7 +89,7 @@ function M.config()
       git = 1,
       folders = 1,
       files = 1,
-      folder_arrows = 0,
+      folder_arrows = 1,
       tree_width = 30,
     },
   }))

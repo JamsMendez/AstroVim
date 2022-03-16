@@ -333,7 +333,7 @@ local astro_plugins = {
     disable = not config.enabled.neoscroll,
   },
 
-  -- Smooth escaping
+  --[[ -- Smooth escaping
   ["max397574/better-escape.nvim"] = {
     "max397574/better-escape.nvim",
     event = { "InsertEnter" },
@@ -344,7 +344,7 @@ local astro_plugins = {
         keys = "<ESC>",
       }))
     end,
-  },
+  }, ]]
 
   -- Get extra JSON schemas
   ["b0o/SchemaStore.nvim"] = { "b0o/SchemaStore.nvim" },
