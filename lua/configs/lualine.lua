@@ -93,7 +93,7 @@ function M.config()
 
   ins_left {
     "diff",
-    symbols = { added = " ", modified = "柳", removed = " " },
+    symbols = { added = " ", modified = "柳 ", removed = " " },
     diff_color = {
       added = { fg = colors.green },
       modified = { fg = colors.yellow_1 },

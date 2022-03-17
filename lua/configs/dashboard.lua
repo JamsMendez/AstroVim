@@ -31,10 +31,10 @@ function M.config()
   }
 
   g.dashboard_custom_section = {
-    a = { description = { "   Find File                 SPC f f" }, command = "Telescope find_files" },
-    b = { description = { "   Projects                  SPC f o" }, command = "Telescope projects" },
+    a = { description = { "   New File                  SPC f n" }, command = "DashboardNewFile" },
+    b = { description = { "   Find File                 SPC f f" }, command = "Telescope find_files" },
     c = { description = { "   Find Word                 SPC f w" }, command = "Telescope live_grep" },
-    d = { description = { "   New File                  SPC f n" }, command = "DashboardNewFile" },
+    d = { description = { "   Projects                  SPC f p" }, command = "Telescope projects" },
     e = { description = { "   Configuration             SPC f c" }, command = "e ~/.config/nvim/init.lua" },
   }
 
