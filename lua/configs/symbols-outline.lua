@@ -1,13 +1,13 @@
 local M = {}
 
 function M.setup()
-  vim.g.symbols_outline = require("core.utils").user_plugin_opts("symbols_outline", {
+  vim.g.symbols_outline = require("core.utils").user_plugin_opts("plugins.symbols_outline", {
     highlight_hovered_item = true,
     show_guides = true,
     auto_preview = true,
     position = "right",
     relative_width = true,
-    width = 45,
+    width = 17,
     auto_close = false,
     show_numbers = false,
     show_relative_numbers = false,
