@@ -8,7 +8,7 @@ function M.config()
 
   local g = vim.g
 
-  g.nvim_tree_indent_markers = 1
+  -- g.nvim_tree_indent_markers = 1
 
   g.nvim_tree_icons = {
     default = "",
@@ -50,7 +50,7 @@ function M.config()
       "startify",
       "alpha",
     },
-    auto_close = true,
+    -- auto_close = true,
     open_on_tab = false,
     quit_on_open = false,
     hijack_cursor = true,
@@ -79,6 +79,16 @@ function M.config()
       number = false,
       relativenumber = false,
       signcolumn = "yes",
+    },
+    renderer = {
+      indent_markers = {
+        enable = true,
+        icons = {
+          corner = "└ ",
+          edge = "│ ",
+          none = "  ",
+        },
+      },
     },
     git = {
       enable = true,

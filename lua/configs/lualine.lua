@@ -39,6 +39,7 @@ function M.config()
 
   local config = {
     options = {
+      theme = "onedark",
       disabled_filetypes = { "NvimTree", "neo-tree", "dashboard", "Outline" },
       component_separators = "",
       section_separators = "",
