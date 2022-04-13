@@ -357,14 +357,14 @@ local astro_plugins = {
     disable = not config.enabled.neoscroll,
   },
 
-  -- Smooth escaping
-  {
-    "max397574/better-escape.nvim",
-    event = { "InsertEnter" },
-    config = function()
-      require("configs.better_escape").config()
-    end,
-  }, ]]
+  -- -- Smooth escaping
+  -- {
+  --   "max397574/better-escape.nvim",
+  --   event = { "InsertEnter" },
+  --   config = function()
+  --     require("configs.better_escape").config()
+  --   end,
+  -- }, 
 
   -- Get extra JSON schemas
   { "b0o/SchemaStore.nvim" },
