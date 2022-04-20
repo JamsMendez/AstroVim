@@ -13,6 +13,7 @@ function M.config()
         { filetype = "neo-tree", text = "", padding = 1 },
         { filetype = "Outline", text = "", padding = 1 },
       },
+      indicator_icon = "",
       buffer_close_icon = "",
       modified_icon = "",
       close_icon = "",

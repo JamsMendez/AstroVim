@@ -130,10 +130,12 @@ if utils.is_available "telescope.nvim" then
 
   init_table "f"
   mappings.f.b = { "<cmd>Telescope buffers<CR>", "Find Buffers" }
+  mappings.f.c = { "<cmd>e ~/.config/nvim/init.lua<CR>", "Configuration" }
   mappings.f.f = { "<cmd>Telescope find_files<CR>", "Find Files" }
   mappings.f.h = { "<cmd>Telescope help_tags<CR>", "Find Help" }
   mappings.f.m = { "<cmd>Telescope marks<CR>", "Find Marks" }
   mappings.f.o = { "<cmd>Telescope oldfiles<CR>", "Find Old Files" }
+  mappings.f.p = { "<cmd>Telescope projects<CR>", "Projects" }
   mappings.f.w = { "<cmd>Telescope live_grep<CR>", "Find Words" }
 
   init_table "l"

@@ -106,6 +106,7 @@ if not utils.is_available "which-key.nvim" then
     map("n", "<leader>fn", "<cmd>DashboardNewFile<CR>", opts)
     map("n", "<leader>Sl", "<cmd>SessionLoad<CR>", opts)
     map("n", "<leader>Ss", "<cmd>SessionSave<CR>", opts)
+    map("n", "<leader>fc", "<cmd>e ~/.config/nvim/init.lua<CR>", opts)
   end
 
   -- GitSigns
@@ -132,6 +133,7 @@ if not utils.is_available "which-key.nvim" then
     map("n", "<leader>fh", "<cmd>Telescope help_tags<CR>", opts)
     map("n", "<leader>fm", "<cmd>Telescope marks<CR>", opts)
     map("n", "<leader>fo", "<cmd>Telescope oldfiles<CR>", opts)
+    map("n", "<leader>fp", "<cmd>Telescope projects<CR>", opts)
     map("n", "<leader>sb", "<cmd>Telescope git_branches<CR>", opts)
     map("n", "<leader>sh", "<cmd>Telescope help_tags<CR>", opts)
     map("n", "<leader>sm", "<cmd>Telescope man_pages<CR>", opts)
